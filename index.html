@@ -6,26 +6,8 @@
 <meta content='Digital Clock online, Digital Clock Full Screen,
 Online Digital Clock Full Screen' property='og:description'/>
 <title>Digital Clock</title>
-<style>
-@font-face {font-family: digital; src: url(digital.ttf); }
-* {margin: 0; padding: 0;  box-sizing: border-box;}
-html, body {height: 100%;  width: 100%; }
-body {
-background: #0d0d0d; //black;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-#clock {
-font-family: digital, Arial, sans-serif;
-font-size: 22vw; font-weight: 700;
-color: #27ff0a; //green
-text-shadow: 0 0 30px green, 0 0 40px green;
-line-height: 20.4vh;
-display: flex;
-position: relative;
-}
-</style></head><body><div id="clock"></div>
+<link rel="stylesheet" href="style.css">
+</head><body><div id="clock"></div>
 <script>
 function updateClock() {
 const clockElement = document.getElementById('clock');
