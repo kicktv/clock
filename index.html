@@ -2,6 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Digital Clock</title>
 <style>
+@font-face {font-family: 'digital';
+src: url(digital.ttf);}
+
 * { margin: 0; padding: 0;    box-sizing: border-box;}
 html, body {height: 100%;  width: 100%; }
 body {
@@ -13,7 +16,7 @@ align-items: center;
 #clock {
 font-size: 22vw; font-weight: 700;
 color: #27ff0a; //green
-font-family: impact,digital,Arial,sans-serif;
+font-family: digital, Arial, sans-serif;
 text-shadow: 0 0 30px white, 0 0 40px white;
 line-height: 20.4vh;
 display: flex;
