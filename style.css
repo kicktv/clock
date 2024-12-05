@@ -9,7 +9,7 @@ align-items: center;
 }
 #clock {
 font-family: digital, Arial, sans-serif;
-font-size: 31vw; font-weight:900;
+font-size: 32vw; font-weight:900;
 color: #27ff0a; /* color green */
 text-shadow: 0 0 30px green, 0 0 40px green;
 line-height: 20.4vh;
